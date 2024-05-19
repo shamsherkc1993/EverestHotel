@@ -1,0 +1,48 @@
+.footer-container {
+  background-color: black;
+  padding: 6rem;
+  color: #fff;
+}
+
+.footer-container ul li {
+  list-style: none;
+}
+.footer-container ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+.footer-container ul li a:hover,
+.footer-container ul li a:focus {
+  text-decoration: none;
+  color: rgb(229 93 66);
+  transition: 0.5s;
+}
+.footer-right img {
+  height: 100px;
+  width: 200px;
+  margin-left: 6rem;
+}
+.footer-right p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    padding: 3rem;
+  }
+  .footer-container ul li {
+    margin-left: -2rem;
+  }
+  .footer-right img {
+    margin-left: 0rem;
+    margin-top: 5rem;
+    height: 200px;
+    width: 300px;
+  }
+  .footer-right p {
+    text-align: left;
+    margin-top: 3rem;
+  }
+}

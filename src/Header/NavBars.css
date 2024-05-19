@@ -3,26 +3,32 @@
   opacity: 0.7;
 }
 .navbar-nav {
-    margin-left: 45rem;
+  margin-left: 45rem;
 }
 .navbar-nav a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 700;
-    color:#fff;
-    transition: 0.5s;
-    margin-left: 2rem;
-    z-index: 1;
-    font-weight: 500 !important;
-} 
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.5s;
+  margin-left: 2rem;
+  z-index: 1;
+  font-weight: 500 !important;
+}
 .navbar-nav a:hover,
 .navbar-nav a:focus {
-    color:rgb(229 93 66);
-    transition: 0.5s;
+  color: rgb(229 93 66);
+  transition: 0.5s;
 }
 
-.logo{
-    height: 3rem;
-    width: 4rem;
-    margin-left: 4rem;
+.logo {
+  height: 3rem;
+  width: 4rem;
+  margin-left: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
 }
