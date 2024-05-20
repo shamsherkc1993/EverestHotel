@@ -3,7 +3,7 @@
   opacity: 0.7;
 }
 .navbar-nav {
-  margin-left: 45rem;
+  margin-left: 42rem;
 }
 .navbar-nav a {
   text-decoration: none;
@@ -11,7 +11,7 @@
   font-weight: 700;
   color: #fff;
   transition: 0.5s;
-  margin-left: 2rem;
+  margin-left: 1rem;
   z-index: 1;
   font-weight: 500 !important;
 }

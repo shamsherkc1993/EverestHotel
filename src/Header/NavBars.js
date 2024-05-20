@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import Errorpage from "../ErrorPage/Errorpage";
+import About from "../About/About";
 import Logo from "../ImagesFolder/Logo/logo.png";
 
 const NavBars = () => {

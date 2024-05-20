@@ -6,6 +6,7 @@
 
 .footer-container ul li {
   list-style: none;
+  margin-bottom: 15px;
 }
 .footer-container ul li a {
   text-decoration: none;
